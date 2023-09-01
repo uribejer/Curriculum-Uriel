@@ -11,21 +11,36 @@ img{
     width: 300px;   
     height: 300px;
     display: block;
-    margin: 0 auto;
-    border: dashed 3px;
-    border-color: black;
-}
-
-ul{
-    text-align: center;
-    font-size: x-large;
+    margin: 0 auto; 
     border: solid 3px;
     border-color: black;
 }
 
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 10px;
+}
+
+li{
+    font-size: x-large;
+    border: solid 10px;
+    border-color: black;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.subrayado{
+    text-decoration: none;
+}
+
 #Listahorizontal{
-    display: inline;
-    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 50px 50px 30px;
 }
 
 #EncabezadoPrincipal{
@@ -37,6 +52,3 @@ ul{
     color: midnightblue;
     font-size: x-large;
 }
-
-
-
